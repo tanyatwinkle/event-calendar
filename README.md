@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Event Calendar Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Summary of Features
 
-## Available Scripts
+This is a **Dynamic Event Calendar Application** built with **React.js**. The application allows users to:
 
-In the project directory, you can run:
+1. **View Calendar**:
+    - Display a calendar grid of the current month with proper day alignment.
+    - Switch between months using "Previous" and "Next" buttons.
 
-### `npm start`
+2. **Event Management**:
+    - **Add, edit, or delete events** on any specific day.
+    - Each event includes:
+        - Event name
+        - Start time and end time
+        - Optional description.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Event List**:
+    - View all events for the selected day in a modal or side panel.
+    - View all events for the current month.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Features**:
+    - Events persist between page refreshes using **localStorage**.
+    - Automatically handles month transitions and prevent event overlap.
+    - Event filtering is available by keyword.
+    - User-friendly UI, with **shadcn** components for a clean and modern look.
 
-### `npm test`
+5. **Optional Features** (Bonus):
+    - **Drag-and-drop functionality** to reschedule events.
+    - Color-coded events by type (work, personal, etc.).
+    - Export event list as **JSON** or **CSV**.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get this project up and running locally, follow these instructions:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Node.js** and **npm** (Node Package Manager) must be installed.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   To install **Node.js** and **npm**, visit the official website: https://nodejs.org/
 
-### `npm run eject`
+### Installing and Running the App Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/tanyatwinkle/event-calendar.git
